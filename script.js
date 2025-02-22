@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Fetch the JSON file and display the films
-    fetch('./films_data.json')
+    fetch('films_data.json')
         .then(response => response.json())
         .then(films => {
             displayFilms(films);
