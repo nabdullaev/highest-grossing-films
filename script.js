@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <h3>${film.title}</h3>
                 <p><strong>Release Year:</strong> ${film.release_year}</p>
                 <p><strong>Director(s):</strong> ${film.directors.join(', ')}</p>
-                <p><strong>Box Office:</strong> ${film.box_office_cleaned}</p>
+                <p><strong>Box Office:</strong> ${film.box_office}</p>
                 <p><strong>Country:</strong> ${film.country}</p>
             `;
             filmList.appendChild(filmCard);
